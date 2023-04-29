@@ -1,0 +1,32 @@
+{
+  "name": "calendar-app",
+  "homepage": "https://dhirajtek13.github.io/calone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "vite": "^4.1.0"
+  },
+  "eslintConfig": {
+    "extends": "plugin:react-hooks/recommended"
+  }
+}
